@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weybee Solution</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="weybee.png" alt="logo" />
+            <ul>
+                <li><a href="#home" class="">Home</a></li>
+                <li><a href="#company-services" class="">Services</a></li>
+                <li><a href="#about" class="">About Us</a></li>
+                <li><a href="#contact_me" class="">Contact Us</a></li>
+            </ul>
+            <div class="social_icons">
+                <a href="" target="_blank"><i class="Call"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentcolor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                  </svg></i></a>
+                <a href="" target="_blank"><i class="Gmail"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentcolor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                  </svg></i></a>
+
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="carousel">
+            <div class="carousel-images">
+                <div class="carousel-item active">
+                    <img src="Frame 24.png" alt="Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="Frame 25.png" alt="Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="Frame 26.png" alt="Image 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="Frame 27.png" alt="Image 3">
+                </div>
+            </div>
+            <button class="prev btn" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next btn" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="company-services" class="anim">
+        <div class="services">
+            <div class="container">
+                <div class="services-header">
+                    <button class="heading">Our Services</button>
+                </div>
+                <div class="services-content">
+                    <div class="service-item">
+                        <h3>Full Stack Development</h3>
+                        <p>Full stack development services encompass the design and implementation of both the front-end and back-end components of web applications, providing a comprehensive solution from user interface to server-side logic.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Web Development</h3>
+                        <p>Web development services involve creating and maintaining websites and web applications, including front-end design, back-end coding, and database management to ensure a seamless online experience.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Digital Marketing</h3>
+                        <p>Digital marketing services focus on promoting brands and driving online engagement through strategies such as SEO, content marketing, social media, and paid advertising to enhance visibility and attract target audiences.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Cloud-Based Services</h3>
+                        <p>Cloud-based services deliver computing resources, such as storage, processing power, and applications, over the internet, allowing businesses to scale efficiently and access data and tools from anywhere.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>DevOps</h3>
+                        <p>DevOps services integrate development and operations to streamline software delivery, enhance collaboration, and automate processes for faster and more reliable application deployment.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Quality Assurance</h3>
+                        <p>Quality assurance services ensure the reliability and performance of software through systematic testing and evaluation, identifying and resolving issues to deliver high-quality products.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>UI/UX Design</h3>
+                        <p>UI/UX design services focus on creating intuitive and visually appealing user interfaces and experiences, enhancing usability and engagement for digital products.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Dedicated Resources</h3>
+                        <p>Dedicated resource services provide specialized personnel who work exclusively on a client's projects, offering tailored expertise and consistent support to meet specific needs.</p>
+                    </div>
+                </div>
+                <div class="more">
+                    <a href="#" class="learn">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="anim">
+        <div class="container-about">
+            <div class="services-header">
+                <button class="heading-about">About Us</button>
+            </div>
+            <div class="container-text">
+                <div class="card-about">
+                    <div class="text">
+                        <p>WeyBee Solutions has young & creative designers and developers who strive to create innovative and distinctive user interfaces which are notably benign and inviting.</p>
+                        <p>You want results and we want to help you achieve them. So our services fall into 3 main areas - the creative and technical build of your website, the strategy behind it and fine tuning it to maximize its acquisition, retention
+                            and conversion. Of course we offer expertise within each of these fields in their own right but we're also experts at bringing them together into a complete package that is carefully combined to maximize your bottom line.</p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+
+                <div>
+                    <img class="img-about side-anim" src="weybeee-office-401.jpg" alt="Our Office">
+                </div>
+            </div>
+    </section>
+    <footer>
+        <section id="contact_me" class="anim">
+            <div class="container-contact">
+                <div class="services-header">
+                    <button class="heading-contact">Contact Us</button>
+                </div>
+                <div class="main">
+                    <div class="contact_title">
+                        <h1>WeyBee Solution Pvt. Ltd.</h1>
+                        <p>Feel free to contact us.</p>
+                    </div>
+                    <div class="icon">
+                        <a class="typing" href="tel:+918866008860" target="_blank"><i class="call"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentcolor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                          </svg></i>+91 8866008860</a>
+                        <a class="typing" href="" target="_blank"><i class="Email"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentcolor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                          </svg></i>info@weybee.com</a>
+                        <a class="typing" href="" target="_blank"><i class="Location"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentcolor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                          </svg></i>303, Nakshatra Heights 150 Feet Ring Road, Opp Raiya Telephone Exchange Besides Water Tank, Rakjot, Gujarat 360005</a>
+                        <a class="typing" href="" target="_blank"><i class="Location"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentcolor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                          </svg></i>Private Chalet No. 50, Paragraph B Wing, 17th Floor, 1702 Mondeal Heights, S.G. Highway, Ahmedabad, Gujarat 380015</a>
+                    </div>
+
+                </div>
+                <div>
+                    <a href="#" class="touch">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
