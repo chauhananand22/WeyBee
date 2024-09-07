@@ -176,7 +176,6 @@ nav {
     padding-left: 5rem;
     padding-right: 5rem;
     font-size: 1.5rem;
-    border-radius: 25px !important;
     border: 3px solid;
     border-image-slice: 1;
     border-radius: 112px;
@@ -337,7 +336,6 @@ footer {
     padding-right: 5rem;
     margin-top: 1rem;
     font-size: 1.5rem;
-    border-radius: 1rem;
     border-radius: 112px;
     border: 3px solid transparent;
     background: linear-gradient(#1C1B34 0 0) padding-box, linear-gradient(100deg, #4742FB, #4D88F2, #8CB6E0, #C0D6FC) border-box;
